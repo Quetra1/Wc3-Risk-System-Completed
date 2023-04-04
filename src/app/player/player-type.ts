@@ -84,7 +84,6 @@ export class GamePlayer {
 	public names: Names;
 	public cities: unit[] = [];
 	public tools: unit;
-	public fog: fogmodifier;
 	public turnDied: number;
 	public goldTotal: number;
 	public cityData: CityData;

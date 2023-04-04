@@ -16,6 +16,7 @@ import { PlayerLeaves } from "app/player/player-leaves-trigger";
 import { eb46 } from "libs/EncodingBase64";
 import { Round } from "./round-system";
 import { CommandProcessor } from "app/commands/command-processor";
+import { FogStateManager } from "app/FogStateManager";
 
 export class Game {
 	private static instance: Game;
@@ -80,6 +81,7 @@ export class Game {
 			try {
 				UserInterface.onLoad();
 				CameraControls.getInstance();
+                FogStateManager.getInstance();
 
 				Players.forEach(player => {
 					if (player.slotState == PLAYER_SLOT_STATE_PLAYING || player.getState(PLAYER_STATE_OBSERVER) > 0) {
