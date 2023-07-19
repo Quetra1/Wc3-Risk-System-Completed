@@ -103,8 +103,6 @@ export class City {
 		//East Malaysia
 		Cities[11] = new City(8128.0, -10752.0, UID.CITY)
 		Cities[12] = new City(10112.0, -8064.0, UID.CITY)
-
-		//Brunei
 		Cities[13] = new City(8736.0, -9120.0, UID.PORT)
 
 		//Lower Indonesia
@@ -122,7 +120,6 @@ export class City {
 		//Nepal
 		Cities[44] = new City(-2432.0, 1664.0, UID.CITY)
 		Cities[45] = new City(-1344.0, 1088.0, UID.CITY)
-		1600.0
 		//Tibet (China)
 		Cities[46] = new City(-2496.0, 4416.0, UID.CITY)
 		Cities[47] = new City(-1024.0, 3008.0, UID.CITY)
@@ -200,9 +197,11 @@ export class City {
 		Cities[90] = new City(1792.0, 13888.0, UID.CITY)
 
 		//South India
-		Cities[94] = new City(-5280.0, -4960.0, UID.PORT)
-		Cities[95] = new City(-2912.0, -4704.0, UID.PORT)
-		Cities[96] = new City(-4032.0, -7680.0, UID.CITY)
+		Cities[0] = new City(-4864.0, -5888.0, UID.CITY)
+		Cities[0] = new City(-3136.0, -5952.0, UID.CITY)
+		Cities[0] = new City(-3968.0, -7296.0, UID.CITY)
+		Cities[0] = new City(-5344.0, -4768.0, UID.PORT)
+		Cities[0] = new City(-2848.0, -4576.0, UID.PORT)
 
 		//Sri Lanka
 		Cities[97] = new City(-2208.0, -10976.0, UID.CITY)
@@ -213,15 +212,22 @@ export class City {
 		Cities[100] = new City(-4352.0, -832.0, UID.CITY)
 		Cities[101] = new City(-1664.0, -2368.0, UID.CITY)
 		Cities[102] = new City(-3136.0, -3008.0, UID.CITY)
+		Cities[0] = new City(-2880.0, -1664.0, UID.CITY)
 
 		//West India
-		Cities[103] = new City(-6720.0, -704.0, UID.CITY)
-		Cities[104] = new City(-5312.0, 832.0, UID.CITY)
+		Cities[0] = new City(-6144.0, -704.0, UID.CITY)
+		Cities[0] = new City(-5120.0, 128.0, UID.CITY)
+		Cities[0] = new City(-5952.0, 960.0, UID.CITY)
+
+		//Pradesh
+		Cities[0] = new City(-2112.0, -128.0, UID.CITY)
+		Cities[0] = new City(-3456.0, 576.0, UID.CITY)
+		Cities[0] = new City(-4608.0, 1472.0, UID.CITY)
 
 		//North India
-		Cities[106] = new City(-4736.0, 2176.0, UID.CITY)
-		Cities[107] = new City(-4544.0, 4736.0, UID.CITY)
-		Cities[108] = new City(-3712.0, 832.0, UID.CITY)
+		Cities[0] = new City(-3456.0, 2432.0, UID.CITY)
+		Cities[0] = new City(-4096.0, 3520.0, UID.CITY)
+		Cities[0] = new City(-4544.0, 4672.0, UID.CITY)
 
 		//East China
 		Cities[109] = new City(6720.0, 8192.0, UID.CITY)
@@ -240,23 +246,22 @@ export class City {
 		Cities[120] = new City(3904.0, 6528.0, UID.CITY)
 
 		//Pakistan
-		Cities[121] = new City(-7104.0, 512.0, UID.CITY)
-		Cities[122] = new City(-8384.0, 1856.0, UID.CITY)
-		Cities[123] = new City(-7104.0, 2880.0, UID.CITY)
-		Cities[124] = new City(-5504.0, 3136.0, UID.CITY)
-		Cities[125] = new City(-5504.0, 5632.0, UID.CITY)
+		Cities[0] = new City(-7232.0, 1216.0, UID.CITY)
+		Cities[0] = new City(-8192.0, 1920.0, UID.CITY)
+		Cities[0] = new City(-7104.0, 2880.0, UID.CITY)
+		Cities[0] = new City(-5504.0, 3072.0, UID.CITY)
 
 		//Iran
 		Cities[126] = new City(-11552.0, 1632.0, UID.PORT)
-		Cities[127] = new City(-12160.0, 3008.0, UID.CITY)
-		Cities[128] = new City(-9920.0, 3712.0, UID.CITY)
-		Cities[129] = new City(-13248.0, 4352.0, UID.CITY)
-		Cities[130] = new City(-11456.0, 5824.0, UID.CITY)
+		Cities[0] = new City(-10432.0, 2816.0, UID.CITY)
+		Cities[0] = new City(-11776.0, 3200.0, UID.CITY)
+		Cities[0] = new City(-9984.0, 4224.0, UID.CITY)
+		Cities[0] = new City(-12352.0, 4736.0, UID.CITY)
+		Cities[0] = new City(-10880.0, 5504.0, UID.CITY)
 
 		//Azerbaijan
-		Cities[131] = new City(-12352.0, 7872.0, UID.CITY)
-		Cities[132] = new City(-13312.0, 8320.0, UID.CITY)
-		Cities[133] = new City(-12544.0, 9088.0, UID.CITY)
+		Cities[0] = new City(-12352.0, 8000.0, UID.CITY)
+		Cities[0] = new City(-13504.0, 9024.0, UID.CITY)
 
 		//South Russia
 		Cities[135] = new City(-13056.0, 10816.0, UID.CITY)
@@ -280,23 +285,22 @@ export class City {
 		Cities[145] = new City(-11584.0, 512.0, UID.CITY)
 
 		//Afghanistan
-		Cities[146] = new City(-8704.0, 3072.0, UID.CITY)
-		Cities[147] = new City(-7040.0, 3968.0, UID.CITY)
-		Cities[148] = new City(-8832.0, 4736.0, UID.CITY)
-		Cities[149] = new City(-6592.0, 5568.0, UID.CITY)
+		Cities[0] = new City(-8640.0, 3904.0, UID.CITY)
+		Cities[0] = new City(-7296.0, 4096.0, UID.CITY)
+		Cities[0] = new City(-8064.0, 5312.0, UID.CITY)
+		Cities[0] = new City(-6656.0, 5568.0, UID.CITY)
 
 		//Turkmenistan
-		Cities[150] = new City(-8576.0, 6528.0, UID.CITY)
-		Cities[151] = new City(-9792.0, 8576.0, UID.CITY)
+		Cities[0] = new City(-8768.0, 7296.0, UID.CITY)
+		Cities[0] = new City(-9728.0, 8448.0, UID.CITY)
 
 		//Uzbekistan
-		Cities[152] = new City(-7616.0, 7488.0, UID.CITY)
-		Cities[153] = new City(-7040.0, 8832.0, UID.CITY)
-		Cities[154] = new City(-8256.0, 9792.0, UID.CITY)
+		Cities[0] = new City(-7552.0, 8320.0, UID.CITY)
+		Cities[0] = new City(-8512.0, 9728.0, UID.CITY)
 
 		//Tajikistan
-		Cities[14] = new City(-6528.0, 6976.0, UID.CITY)
-		Cities[15] = new City(-5120.0, 6976.0, UID.CITY)
+		Cities[0] = new City(-5056.0, 6848.0, UID.CITY)
+		Cities[0] = new City(-7168.0, 6912.0, UID.CITY)
 
 		//East Kazakhstan
 		Cities[16] = new City(-5888.0, 9920.0, UID.CITY)
@@ -325,7 +329,6 @@ export class City {
 
 		//Volga (Russia)
 		Cities[169] = new City(-13504.0, 14656.0, UID.CITY)
-		Cities[170] = new City(-12288.0, 14784.0, UID.CITY)
 		Cities[171] = new City(-12224.0, 15936.0, UID.CITY)
 
 		//Ural (Russia)
