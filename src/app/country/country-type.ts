@@ -103,8 +103,12 @@ export class Country {
 		//Country.fromName.set("Kazakhstan", new Country("Kazakhstan", -4802.25, 11451.0))
 		Country.fromName.set("Russia Far East", new Country("Russia Far East", 9275.25, 15673.0))
 		Country.fromName.set("Hulunbuir Steppes (China)", new Country("Hulunbuir Steppes (China)", 7100.75, 14651.25))
-		Country.fromName.set("Mongolia", new Country("Mongolia", 9275.25, 15673.0))
+		Country.fromName.set("Mongolia", new Country("Mongolia", -963.25, 8761.5))
 		Country.fromName.set("North China", new Country("North China", 8253.5, 12211.0))
+		Country.fromName.set("Inner Mongolia (China)", new Country("Inner Mongolia (China)", 3773.5, 7993.25))
+		Country.fromName.set("Central China", new Country("Central China", 1719.5, 5690.25))
+		Country.fromName.set("South Xinjiang", new Country("South Xinjiang", -3015.0, 6331.0))
+		Country.fromName.set("North Xinjiang", new Country("North Xinjiang", -963.25, 8761.5))
 	}
 
 	//Public API

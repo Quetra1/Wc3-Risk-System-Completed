@@ -127,13 +127,6 @@ export class City {
 		Cities[0] = new City(-1152.0, 4928.0, UID.CITY)
 		Cities[0] = new City(-2560.0, 4544.0, UID.CITY)
 
-		//Xinjiang (China)
-		Cities[50] = new City(-1984.0, 5760.0, UID.CITY)
-		Cities[51] = new City(-3136.0, 7680.0, UID.CITY)
-		Cities[52] = new City(-320.0, 7424.0, UID.CITY)
-		Cities[53] = new City(384.0, 8960.0, UID.CITY)
-		Cities[54] = new City(-1152.0, 11392.0, UID.CITY)
-
 		//West Malaysia
 		Cities[56] = new City(4288.0, -9152.0, UID.CITY)
 		Cities[57] = new City(5280.0, -10144.0, UID.PORT)
@@ -180,10 +173,21 @@ export class City {
 		Cities[0] = new City(6912.0, 15488.0, UID.CITY)
 
 		//Inner Mongolia
-		Cities[83] = new City(3008.0, 8448.0, UID.CITY)
-		Cities[84] = new City(4544.0, 8832.0, UID.CITY)
-		Cities[85] = new City(5184.0, 10688.0, UID.CITY)
-		Cities[86] = new City(7488.0, 11584.0, UID.CITY)
+		Cities[0] = new City(2816.0, 8384.0, UID.CITY)
+		Cities[0] = new City(4288.0, 8640.0, UID.CITY)
+		Cities[0] = new City(6016.0, 10432.0, UID.CITY)
+
+		//South Xinjiang (China)
+		Cities[0] = new City(-3968.0, 6144.0, UID.CITY)
+		Cities[0] = new City(-1920.0, 6016.0, UID.CITY)
+		Cities[0] = new City(-3200.0, 7296.0, UID.CITY)
+
+		//North Xinjiang (China)
+		Cities[0] = new City(-896.0, 7552.0, UID.CITY)
+		Cities[0] = new City(-2240.0, 8896.0, UID.CITY)
+		Cities[0] = new City(320.0, 8128.0, UID.CITY)
+		Cities[0] = new City(320.0, 9408.0, UID.CITY)
+		Cities[0] = new City(-1600.0, 10176.0, UID.CITY)
 
 		//Mongolia
 		Cities[0] = new City(5696.0, 12672.0, UID.CITY)
@@ -193,11 +197,17 @@ export class City {
 		Cities[0] = new City(1920.0, 10176.0, UID.CITY)
 		Cities[0] = new City(3840.0, 10496.0, UID.CITY)
 
-		//North
+		//North China
 		Cities[0] = new City(8640.0, 11456.0, UID.CITY)
 		Cities[0] = new City(7232.0, 11776.0, UID.CITY)
 		Cities[0] = new City(8064.0, 12864.0, UID.CITY)
 		Cities[79] = new City(7456.0, 10144.0, UID.PORT)
+
+		//Central China
+		Cities[0] = new City(1600.0, 4800.0, UID.CITY)
+		Cities[0] = new City(576.0, 6080.0, UID.CITY)
+		Cities[0] = new City(1792.0, 6528.0, UID.CITY)
+		Cities[0] = new City(2816.0, 5568.0, UID.CITY)
 
 		//South India
 		Cities[0] = new City(-4864.0, -5888.0, UID.CITY)
@@ -241,12 +251,6 @@ export class City {
 		Cities[114] = new City(4736.0, 2752.0, UID.CITY)
 		Cities[115] = new City(6848.0, 704.0, UID.CITY)
 		Cities[116] = new City(8384.0, 2496.0, UID.CITY)
-
-		//Central China
-		Cities[117] = new City(704.0, 5056.0, UID.CITY)
-		Cities[118] = new City(3008.0, 4608.0, UID.CITY)
-		Cities[119] = new City(1408.0, 6976.0, UID.CITY)
-		Cities[120] = new City(3904.0, 6528.0, UID.CITY)
 
 		//Pakistan
 		Cities[0] = new City(-7232.0, 1216.0, UID.CITY)
