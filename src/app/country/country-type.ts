@@ -58,7 +58,6 @@ export class Country {
 		// Country.fromName.set("Nepal", new Country("Nepal", -1994.0, 1087.75, Cities[44], Cities[45]))
 		// Country.fromName.set("Tibet (China)", new Country("Tibet", -1600.0, 3902.0, Cities[46], Cities[47], Cities[48], Cities[49]))
 		// Country.fromName.set("Xinjiang (China)", new Country("Xinjiang", -1731.75, 7089.25, Cities[50], Cities[51], Cities[52], Cities[53], Cities[54]))
-		// Country.fromName.set("Russia Far East", new Country("Russia Far East", 8895.75, 15546.25, Cities[55], Cities[65]))
 		// Country.fromName.set("West Malaysia", new Country("West Malaysia", 4668.0, -9800.0, Cities[56], Cities[57]))
 		// Country.fromName.set("Yunnan (China)", new Country("Yunnan (China)", 3771.0, 55.75, Cities[58], Cities[59]))
 		// Country.fromName.set("East Timor", new Country("East Timor", 13626.75, -15176.5, Cities[60], Cities[61]))
@@ -68,10 +67,7 @@ export class Country {
 		// Country.fromName.set("Sapporo (Japan)", new Country("Sapporo (Japan)", 13369.5, 15293.25, Cities[70], Cities[71]))
 		// Country.fromName.set("North Philippines", new Country("North Philippines", 11192.25, -964.0, Cities[72], Cities[73]))
 		// Country.fromName.set("South Philippines", new Country("South Philippines", 12984.5, -5321.75, Cities[74], Cities[75]))
-		// Country.fromName.set("Hulunbuir Steppes (China)", new Country("Hulunbuir Steppes (China)", 7228.5, 13756.0, Cities[76], Cities[77], Cities[78]))
-		// Country.fromName.set("Northeast China", new Country("Northeast China", 8760.75, 12855.75, Cities[79], Cities[80], Cities[81], Cities[82]))
-		// Country.fromName.set("Inner Mongolia (China)", new Country("Inner Mongolia (China)", 3769.0, 7989.0, Cities[83], Cities[84], Cities[85], Cities[86]))
-		// Country.fromName.set("Mongolia", new Country("Mongolia", 3641.25, 12089.0, Cities[87], Cities[88], Cities[89], Cities[90]))
+
 		// Country.fromName.set("South India", new Country("South India", -4164.5, -4932.75, Cities[94], Cities[95], Cities[96]))
 		// Country.fromName.set("Central India", new Country("Central India", -3655.0, -1997.0, Cities[99], Cities[100], Cities[101], Cities[102]))
 		// Country.fromName.set("West India", new Country("West India", -5953.0, 57.75, Cities[103], Cities[104]))
@@ -88,7 +84,6 @@ export class Country {
 		// Country.fromName.set("Afghanistan", new Country("Afghanistan", -7880.5, 4540.25, Cities[146], Cities[147], Cities[148], Cities[149]))
 		// Country.fromName.set("Turkmenistan", new Country("Turkmenistan", -9413.0, 7862.0, Cities[150], Cities[151]))
 		// Country.fromName.set("Tajikistan", new Country("Tajikistan", -5824.25, 6967.5, Cities[14], Cities[15]))
-		// Country.fromName.set("East Kazakhstan", new Country("East Kazakhstan", -5179.5, 12858.25, Cities[16], Cities[17], Cities[155], Cities[156], Cities[157], Cities[158]))
 		// Country.fromName.set("Kyrgyzstan", new Country("Kyrgyzstan", -4428.25, 7999.5, Cities[159], Cities[160]))
 		// Country.fromName.set("Mangystau (Kazakhstan)", new Country("Mangystau (Kazakhstan)", -10179.5, 10297.75, Cities[161], Cities[162]))
 		// Country.fromName.set("West Kazakhstan", new Country("West Kazakhstan", -10053.5, 12856.75, Cities[164], Cities[165], Cities[166]))
@@ -105,6 +100,11 @@ export class Country {
 		// Country.fromName.set("Thailand", new Country("Thailand", 4924.0, -4677.5))
 		// Country.fromName.set("Myanmar", new Country("Myanmar", 2489.25, -1988.25))
 		// Country.fromName.set("Bangladesh", new Country("Bangladesh", 56.5, -840.5))
+		//Country.fromName.set("Kazakhstan", new Country("Kazakhstan", -4802.25, 11451.0))
+		Country.fromName.set("Russia Far East", new Country("Russia Far East", 9275.25, 15673.0))
+		Country.fromName.set("Hulunbuir Steppes (China)", new Country("Hulunbuir Steppes (China)", 7100.75, 14651.25))
+		Country.fromName.set("Mongolia", new Country("Mongolia", 9275.25, 15673.0))
+		Country.fromName.set("North China", new Country("North China", 8253.5, 12211.0))
 	}
 
 	//Public API

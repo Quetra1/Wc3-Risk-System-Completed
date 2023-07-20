@@ -121,10 +121,11 @@ export class City {
 		Cities[44] = new City(-2432.0, 1664.0, UID.CITY)
 		Cities[45] = new City(-1344.0, 1088.0, UID.CITY)
 		//Tibet (China)
-		Cities[46] = new City(-2496.0, 4416.0, UID.CITY)
-		Cities[47] = new City(-1024.0, 3008.0, UID.CITY)
-		Cities[48] = new City(896.0, 3456.0, UID.CITY)
-		Cities[49] = new City(2688.0, 2944.0, UID.CITY)
+		Cities[0] = new City(1664.0, 3392.0, UID.CITY)
+		Cities[0] = new City(192.0, 3712.0, UID.CITY)
+		Cities[0] = new City(-1344.0, 3328.0, UID.CITY)
+		Cities[0] = new City(-1152.0, 4928.0, UID.CITY)
+		Cities[0] = new City(-2560.0, 4544.0, UID.CITY)
 
 		//Xinjiang (China)
 		Cities[50] = new City(-1984.0, 5760.0, UID.CITY)
@@ -153,8 +154,8 @@ export class City {
 		Cities[64] = new City(10240.0, 12352.0, UID.CITY)
 
 		//Russia Far East
-		Cities[55] = new City(9664.0, 15872.0, UID.CITY)
-		Cities[65] = new City(8000.0, 16064.0, UID.CITY)
+		Cities[0] = new City(8576.0, 16064.0, UID.CITY)
+		Cities[0] = new City(10112.0, 16064.0, UID.CITY)
 
 		//Japan
 		Cities[66] = new City(12384.0, 7584.0, UID.PORT)
@@ -174,15 +175,9 @@ export class City {
 		Cities[75] = new City(13216.0, -6048.0, UID.PORT)
 
 		//Hulunbuir Steppes (China)
-		Cities[76] = new City(6400.0, 13952.0, UID.CITY)
-		Cities[77] = new City(6080.0, 15744.0, UID.CITY)
-		Cities[78] = new City(7680.0, 14528.0, UID.CITY)
-
-		//Northeast China
-		Cities[79] = new City(7456.0, 10144.0, UID.PORT)
-		Cities[80] = new City(8640.0, 11776.0, UID.CITY)
-		Cities[81] = new City(9664.0, 13440.0, UID.CITY)
-		Cities[82] = new City(8768.0, 14336.0, UID.CITY)
+		Cities[0] = new City(7808.0, 14336.0, UID.CITY)
+		Cities[0] = new City(6464.0, 14016.0, UID.CITY)
+		Cities[0] = new City(6912.0, 15488.0, UID.CITY)
 
 		//Inner Mongolia
 		Cities[83] = new City(3008.0, 8448.0, UID.CITY)
@@ -191,10 +186,18 @@ export class City {
 		Cities[86] = new City(7488.0, 11584.0, UID.CITY)
 
 		//Mongolia
-		Cities[87] = new City(576.0, 12096.0, UID.CITY)
-		Cities[88] = new City(1664.0, 10496.0, UID.CITY)
-		Cities[89] = new City(5312.0, 12352.0, UID.CITY)
-		Cities[90] = new City(1792.0, 13888.0, UID.CITY)
+		Cities[0] = new City(5696.0, 12672.0, UID.CITY)
+		Cities[0] = new City(4352.0, 13184.0, UID.CITY)
+		Cities[0] = new City(2304.0, 12736.0, UID.CITY)
+		Cities[0] = new City(1088.0, 11584.0, UID.CITY)
+		Cities[0] = new City(1920.0, 10176.0, UID.CITY)
+		Cities[0] = new City(3840.0, 10496.0, UID.CITY)
+
+		//North
+		Cities[0] = new City(8640.0, 11456.0, UID.CITY)
+		Cities[0] = new City(7232.0, 11776.0, UID.CITY)
+		Cities[0] = new City(8064.0, 12864.0, UID.CITY)
+		Cities[79] = new City(7456.0, 10144.0, UID.PORT)
 
 		//South India
 		Cities[0] = new City(-4864.0, -5888.0, UID.CITY)
@@ -302,17 +305,18 @@ export class City {
 		Cities[0] = new City(-5056.0, 6848.0, UID.CITY)
 		Cities[0] = new City(-7168.0, 6912.0, UID.CITY)
 
-		//East Kazakhstan
-		Cities[16] = new City(-5888.0, 9920.0, UID.CITY)
-		Cities[17] = new City(-3520.0, 10240.0, UID.CITY)
-		Cities[155] = new City(-5248.0, 11712.0, UID.CITY)
-		Cities[156] = new City(-2624.0, 12544.0, UID.CITY)
-		Cities[157] = new City(-5248.0, 14208.0, UID.CITY)
-		Cities[158] = new City(-7040.0, 13376.0, UID.CITY)
-
 		//Kryg
 		Cities[159] = new City(-5056.0, 8768.0, UID.CITY)
 		Cities[160] = new City(-3264.0, 8896.0, UID.CITY)
+
+		//Kazakhstan
+		Cities[0] = new City(-6848.0, 11072.0, UID.CITY)
+		Cities[0] = new City(-5696.0, 12160.0, UID.CITY)
+		Cities[0] = new City(-4224.0, 12864.0, UID.CITY)
+		Cities[0] = new City(-5120.0, 10176.0, UID.CITY)
+		Cities[0] = new City(-3904.0, 11008.0, UID.CITY)
+		Cities[0] = new City(-2816.0, 12032.0, UID.CITY)
+
 
 		//Mangystau (Kazakhstan)
 		Cities[161] = new City(-10624.0, 9792.0, UID.CITY)
