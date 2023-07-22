@@ -60,17 +60,17 @@ export class City {
 		let trigg = CreateTrigger()
 		TriggerRegisterPlayerSelectionEventBJ(trigg, Player(0), true)
 
-		TriggerAddAction(trigg, () => {
-			if (IsUnitType(GetTriggerUnit(), UTYPE.CITY)) {
-				this.counter = this.counter + 1;
-				File.write("city" + this.counter.toString() + ".pld", "Cities[0] = new City(" + GetUnitX(GetTriggerUnit()).toString() + ", " + GetUnitY(GetTriggerUnit()).toString() + ", UID.CITY)");
-			}
-			if (IsUnitType(GetTriggerUnit(), UTYPE.SPAWN)) {
-				this.counter2 = this.counter2 + 1;
-				File.write("country" + this.counter2.toString() + ".pld", "Country.fromName.set(, new Country(, " + GetUnitX(GetTriggerUnit()).toString() + ", " + GetUnitY(GetTriggerUnit()).toString() + "))");
-			}
+		// TriggerAddAction(trigg, () => {
+		// 	if (IsUnitType(GetTriggerUnit(), UTYPE.CITY)) {
+		// 		this.counter = this.counter + 1;
+		// 		File.write("city" + this.counter.toString() + ".pld", "Cities[0] = new City(" + GetUnitX(GetTriggerUnit()).toString() + ", " + GetUnitY(GetTriggerUnit()).toString() + ", UID.CITY)");
+		// 	}
+		// 	if (IsUnitType(GetTriggerUnit(), UTYPE.SPAWN)) {
+		// 		this.counter2 = this.counter2 + 1;
+		// 		File.write("country" + this.counter2.toString() + ".pld", "Country.fromName.set(, new Country(, " + GetUnitX(GetTriggerUnit()).toString() + ", " + GetUnitY(GetTriggerUnit()).toString() + "))");
+		// 	}
 
-		})
+		// })
 
 		//Create cop
 		this.cop = CreateUnit(NEUTRAL_HOSTILE, UID.CONTROL_POINT, offSetX, offSetY, 270);
