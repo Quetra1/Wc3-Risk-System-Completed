@@ -1,6 +1,80 @@
 function InitGlobals()
 end
 
+function CreateBuildingsForPlayer0()
+local p = Player(0)
+local u
+local unitID
+local t
+local life
+
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -12160.0, 8960.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -13056.0, 8000.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -17408.0, 13120.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -17024.0, 15744.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -14912.0, 14912.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -16448.0, -12736.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -16320.0, 13824.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -17472.0, -13888.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h001"), -16480.0, -15008.0, 270.000, FourCC("h001"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -17280.0, -11328.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -17344.0, -9856.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -16000.0, -11264.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -17216.0, -8192.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -14848.0, 12224.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h001"), -11872.0, -5408.0, 270.000, FourCC("h001"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -16960.0, -6016.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -12800.0, -7488.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -17152.0, -576.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -14848.0, -3456.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -16000.0, -4224.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -14784.0, -6400.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -16192.0, -7104.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h004"), -12362.7, -6342.7, 270.000, FourCC("h004"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -16256.0, -1920.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -17280.0, -2944.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h004"), -16582.3, -13508.3, 270.000, FourCC("h004"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -15488.0, -9152.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h004"), -15818.6, -6341.1, 270.000, FourCC("h004"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -14016.0, -8640.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h004"), -15042.6, -4288.9, 270.000, FourCC("h004"))
+u = BlzCreateUnitWithSkin(p, FourCC("h004"), -17234.0, -1857.2, 270.000, FourCC("h004"))
+u = BlzCreateUnitWithSkin(p, FourCC("h004"), -16330.0, -8639.4, 270.000, FourCC("h004"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -14208.0, -4992.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h004"), -16454.5, -10693.0, 270.000, FourCC("h004"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -12608.0, 11328.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -17472.0, 4032.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -16320.0, 3520.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -15936.0, 1856.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -15168.0, 128.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -14144.0, -1024.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h001"), -13472.0, 2528.0, 270.000, FourCC("h001"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -13696.0, 1024.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -12928.0, -448.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -17536.0, 6336.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -16192.0, 5760.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -17472.0, 8448.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -14784.0, 10048.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -13760.0, 9344.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -16192.0, 7744.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -15104.0, 8640.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -14528.0, 6336.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -15104.0, 4864.0, 270.000, FourCC("h000"))
+u = BlzCreateUnitWithSkin(p, FourCC("h000"), -14144.0, 4096.0, 270.000, FourCC("h000"))
+end
+
+function CreatePlayerBuildings()
+CreateBuildingsForPlayer0()
+end
+
+function CreatePlayerUnits()
+end
+
+function CreateAllUnits()
+CreatePlayerBuildings()
+CreatePlayerUnits()
+end
+
 function InitCustomPlayerSlots()
 SetPlayerStartLocation(Player(0), 0)
 ForcePlayerStartLocation(Player(0), 0)
@@ -234,13 +308,14 @@ SetStartLocPrio(22, 0, 19, MAP_LOC_PRIO_HIGH)
 end
 
 function main()
-SetCameraBounds(-13696.0 + GetCameraMargin(CAMERA_MARGIN_LEFT), -15872.0 + GetCameraMargin(CAMERA_MARGIN_BOTTOM), 18816.0 - GetCameraMargin(CAMERA_MARGIN_RIGHT), 16256.0 - GetCameraMargin(CAMERA_MARGIN_TOP), -13696.0 + GetCameraMargin(CAMERA_MARGIN_LEFT), 16256.0 - GetCameraMargin(CAMERA_MARGIN_TOP), 18816.0 - GetCameraMargin(CAMERA_MARGIN_RIGHT), -15872.0 + GetCameraMargin(CAMERA_MARGIN_BOTTOM))
+SetCameraBounds(-17792.0 + GetCameraMargin(CAMERA_MARGIN_LEFT), -15872.0 + GetCameraMargin(CAMERA_MARGIN_BOTTOM), 14720.0 - GetCameraMargin(CAMERA_MARGIN_RIGHT), 16256.0 - GetCameraMargin(CAMERA_MARGIN_TOP), -17792.0 + GetCameraMargin(CAMERA_MARGIN_LEFT), 16256.0 - GetCameraMargin(CAMERA_MARGIN_TOP), 14720.0 - GetCameraMargin(CAMERA_MARGIN_RIGHT), -15872.0 + GetCameraMargin(CAMERA_MARGIN_BOTTOM))
 SetDayNightModels("Environment\\DNC\\DNCAshenvale\\DNCAshenvaleTerrain\\DNCAshenvaleTerrain.mdl", "Environment\\DNC\\DNCAshenvale\\DNCAshenvaleUnit\\DNCAshenvaleUnit.mdl")
 SetTerrainFogEx(0, 100000.0, 100000.0, 0.000, 0.000, 0.000, 0.000)
 NewSoundEnvironment("Default")
 SetAmbientDaySound("AshenvaleDay")
 SetAmbientNightSound("AshenvaleNight")
 SetMapMusic("Music", true, 0)
+CreateAllUnits()
 InitBlizzard()
 InitGlobals()
 end

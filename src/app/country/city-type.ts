@@ -60,17 +60,17 @@ export class City {
 		let trigg = CreateTrigger()
 		TriggerRegisterPlayerSelectionEventBJ(trigg, Player(0), true)
 
-		// TriggerAddAction(trigg, () => {
-		// 	if (IsUnitType(GetTriggerUnit(), UTYPE.CITY)) {
-		// 		this.counter = this.counter + 1;
-		// 		File.write("city" + this.counter.toString() + ".pld", "Cities[0] = new City(" + GetUnitX(GetTriggerUnit()).toString() + ", " + GetUnitY(GetTriggerUnit()).toString() + ", UID.CITY)");
-		// 	}
-		// 	if (IsUnitType(GetTriggerUnit(), UTYPE.SPAWN)) {
-		// 		this.counter2 = this.counter2 + 1;
-		// 		File.write("country" + this.counter2.toString() + ".pld", "Country.fromName.set(, new Country(, " + GetUnitX(GetTriggerUnit()).toString() + ", " + GetUnitY(GetTriggerUnit()).toString() + "))");
-		// 	}
+		TriggerAddAction(trigg, () => {
+			if (IsUnitType(GetTriggerUnit(), UTYPE.CITY)) {
+				this.counter = this.counter + 1;
+				File.write("city" + this.counter.toString() + ".pld", "Cities[0] = new City(" + GetUnitX(GetTriggerUnit()).toString() + ", " + GetUnitY(GetTriggerUnit()).toString() + ", UID.CITY)");
+			}
+			if (IsUnitType(GetTriggerUnit(), UTYPE.SPAWN)) {
+				this.counter2 = this.counter2 + 1;
+				File.write("country" + this.counter2.toString() + ".pld", "Country.fromName.set(, new Country(, " + GetUnitX(GetTriggerUnit()).toString() + ", " + GetUnitY(GetTriggerUnit()).toString() + "))");
+			}
 
-		// })
+		})
 
 		//Create cop
 		this.cop = CreateUnit(NEUTRAL_HOSTILE, UID.CONTROL_POINT, offSetX, offSetY, 270);
@@ -84,11 +84,9 @@ export class City {
 	//Static API
 	public static init() {
 
-		//Papua
-		Cities[1] = new City(18272.0, -12192.0, UID.PORT)
-		Cities[2] = new City(18624.0, -10240.0, UID.CITY)
-		Cities[3] = new City(18624.0, -8960.0, UID.CITY)
-		Cities[4] = new City(17408.0, -8640.0, UID.CITY)
+		//Mozambique
+
+		//Tanzania
 
 		//Taiwan
 		Cities[5] = new City(10528.0, 1056.0, UID.PORT)
@@ -248,15 +246,15 @@ export class City {
 
 		//Iran
 		Cities[102] = new City(-11552.0, 1632.0, UID.PORT)
-		Cities[103] = new City(-10432.0, 2816.0, UID.CITY)
-		Cities[104] = new City(-11776.0, 3200.0, UID.CITY)
-		Cities[105] = new City(-9984.0, 4224.0, UID.CITY)
-		Cities[106] = new City(-12352.0, 4736.0, UID.CITY)
-		Cities[107] = new City(-10880.0, 5504.0, UID.CITY)
+		Cities[103] = new City(-10624.0, 5504.0, UID.CITY)
+		Cities[104] = new City(-12352.0, 5696.0, UID.CITY)
+		Cities[105] = new City(-11968.0, 4224.0, UID.CITY)
+		Cities[106] = new City(-10304.0, 4096.0, UID.CITY)
+		Cities[107] = new City(-10432.0, 2816.0, UID.CITY)
 
 		//Azerbaijan
-		Cities[108] = new City(-12352.0, 8000.0, UID.CITY)
-		Cities[109] = new City(-13504.0, 9024.0, UID.CITY)
+		Cities[108] = new City(-13056.0, 8000.0, UID.CITY)
+		Cities[109] = new City(-12160.0, 8960.0, UID.CITY)
 
 		//South Russia
 		Cities[110] = new City(-13056.0, 10816.0, UID.CITY)
@@ -286,13 +284,12 @@ export class City {
 		Cities[124] = new City(-3264.0, 8896.0, UID.CITY)
 
 		//Kazakhstan
-		Cities[125] = new City(-6848.0, 11072.0, UID.CITY)
-		Cities[126] = new City(-5696.0, 12160.0, UID.CITY)
-		Cities[127] = new City(-4224.0, 12864.0, UID.CITY)
-		Cities[128] = new City(-5120.0, 10176.0, UID.CITY)
-		Cities[129] = new City(-3904.0, 11008.0, UID.CITY)
-		Cities[130] = new City(-2816.0, 12032.0, UID.CITY)
-
+		Cities[125] = new City(-6080.0, 10176.0, UID.CITY)
+		Cities[126] = new City(-6464.0, 11968.0, UID.CITY)
+		Cities[127] = new City(-4032.0, 10304.0, UID.CITY)
+		Cities[128] = new City(-4928.0, 13184.0, UID.CITY)
+		Cities[129] = new City(-3776.0, 11904.0, UID.CITY)
+		Cities[130] = new City(-2112.0, 11520.0, UID.CITY)
 
 		//Mangystau (Kazakhstan)
 		Cities[131] = new City(-10624.0, 9792.0, UID.CITY)
@@ -307,8 +304,8 @@ export class City {
 		Cities[136] = new City(7136.0, -1504.0, UID.PORT)
 
 		//Volga (Russia)
-		Cities[137] = new City(-13504.0, 14656.0, UID.CITY)
-		Cities[138] = new City(-12224.0, 15936.0, UID.CITY)
+		Cities[137] = new City(-13120.0, 14976.0, UID.CITY)
+		Cities[138] = new City(-12160.0, 16064.0, UID.CITY)
 
 		//Ural (Russia)
 		Cities[139] = new City(-11264.0, 15232.0, UID.CITY)
@@ -333,79 +330,70 @@ export class City {
 		//Cambodia
 		Cities[151] = new City(5344.0, -6688.0, UID.PORT)
 		Cities[152] = new City(5888.0, -5376.0, UID.CITY)
-		Cities[153] = new City(6592.0, -6016.0, UID.CITY)
-		Cities[154] = new City(7104.0, -4864.0, UID.CITY)
+
+		Cities[153] = new City(7104.0, -4864.0, UID.CITY)
 
 		//Thailand
-		Cities[155] = new City(4352.0, -5248.0, UID.CITY)
-		Cities[156] = new City(4736.0, -3904.0, UID.CITY)
-		Cities[157] = new City(3584.0, -2880.0, UID.CITY)
+		Cities[154] = new City(4352.0, -5248.0, UID.CITY)
+		Cities[155] = new City(4736.0, -3904.0, UID.CITY)
+		Cities[156] = new City(3584.0, -2880.0, UID.CITY)
 
 		//Myanmar
-		Cities[158] = new City(2112.0, -2624.0, UID.CITY)
-		Cities[159] = new City(1984.0, -704.0, UID.CITY)
-		Cities[160] = new City(3008.0, -960.0, UID.CITY)
+		Cities[157] = new City(2112.0, -2624.0, UID.CITY)
+		Cities[158] = new City(1984.0, -704.0, UID.CITY)
+		Cities[159] = new City(3008.0, -960.0, UID.CITY)
 
 		//Bangladesh
-		Cities[161] = new City(288.0, -1440.0, UID.PORT)
-		Cities[162] = new City(-192.0, -320.0, UID.CITY)
+		Cities[160] = new City(288.0, -1440.0, UID.PORT)
+		Cities[161] = new City(-192.0, -320.0, UID.CITY)
 
 		//Vietnam
-		Cities[163] = new City(5504.0, -1536.0, UID.CITY)
-		Cities[164] = new City(5248.0, -384.0, UID.CITY)
+		Cities[162] = new City(5504.0, -1536.0, UID.CITY)
+		Cities[163] = new City(5248.0, -384.0, UID.CITY)
 
 		//Laos
-		Cities[165] = new City(6272.0, -3712.0, UID.CITY)
-		Cities[166] = new City(4736.0, -2368.0, UID.CITY)
+		Cities[164] = new City(6272.0, -3712.0, UID.CITY)
+		Cities[165] = new City(4736.0, -2368.0, UID.CITY)
 
 		//Saudia Arabia
-		Cities[167] = new City(-13376.0, -448.0, UID.CITY)
-		Cities[168] = new City(-11968.0, -960.0, UID.CITY)
+		Cities[166] = new City(-13376.0, -448.0, UID.CITY)
+		Cities[167] = new City(-11968.0, -960.0, UID.CITY)
 
 		//Yemen
-		Cities[169] = new City(-13312.0, -2176.0, UID.CITY)
-		Cities[170] = new City(-12288.0, -2752.0, UID.CITY)
+		Cities[168] = new City(-13312.0, -2176.0, UID.CITY)
+		Cities[169] = new City(-12288.0, -2752.0, UID.CITY)
 
 		//Oman
-		Cities[171] = new City(-10400.0, -480.0, UID.PORT)
-		Cities[172] = new City(-11200.0, -2048.0, UID.CITY)
+		Cities[170] = new City(-10400.0, -480.0, UID.PORT)
+		Cities[171] = new City(-11200.0, -2048.0, UID.CITY)
 
 		//UAE
-		Cities[173] = new City(-12352.0, 512.0, UID.CITY)
-		Cities[174] = new City(-11264.0, 192.0, UID.CITY)
-
-		//Northeast Africa
-		Cities[175] = new City(-13504.0, -4672.0, UID.CITY)
-		Cities[176] = new City(-12224.0, -4480.0, UID.CITY)
-		Cities[177] = new City(-13408.0, -6560.0, UID.PORT)
+		Cities[172] = new City(-12352.0, 512.0, UID.CITY)
+		Cities[173] = new City(-11264.0, 192.0, UID.CITY)
 
 		//Madagascar
-		Cities[178] = new City(-13184.0, -14656.0, UID.CITY)
-		Cities[179] = new City(-12032.0, -13632.0, UID.CITY)
-		Cities[180] = new City(-13184.0, -12928.0, UID.CITY)
-		Cities[181] = new City(-11872.0, -12192.0, UID.PORT)
+		Cities[177] = new City(-13184.0, -14656.0, UID.CITY)
+		Cities[178] = new City(-12032.0, -13632.0, UID.CITY)
+		Cities[179] = new City(-13184.0, -12928.0, UID.CITY)
+		Cities[180] = new City(-11872.0, -12192.0, UID.PORT)
 
 		//West Indonesia
-		Cities[182] = new City(2624.0, -10432.0, UID.CITY)
-		Cities[183] = new City(3968.0, -11456.0, UID.CITY)
-		Cities[184] = new City(5056.0, -12800.0, UID.CITY)
-		Cities[185] = new City(5760.0, -13824.0, UID.CITY)
+		Cities[181] = new City(2624.0, -10432.0, UID.CITY)
+		Cities[182] = new City(3968.0, -11456.0, UID.CITY)
+		Cities[183] = new City(5056.0, -12800.0, UID.CITY)
+		Cities[184] = new City(5760.0, -13824.0, UID.CITY)
 
 		//East Timor
-		Cities[186] = new City(12800.0, -14848.0, UID.CITY)
-		Cities[187] = new City(14176.0, -14112.0, UID.PORT)
-
-		//Australia
-		Cities[188] = new City(16832.0, -14208.0, UID.CITY)
-		Cities[189] = new City(15744.0, -15168.0, UID.CITY)
-		Cities[190] = new City(17696.0, -15520.0, UID.PORT)
+		Cities[185] = new City(12800.0, -14848.0, UID.CITY)
+		Cities[186] = new City(14176.0, -14112.0, UID.PORT)
 
 		//East Indonesia
-		Cities[191] = new City(8384.0, -12096.0, UID.CITY)
-		Cities[192] = new City(9728.0, -11392.0, UID.CITY)
-		Cities[193] = new City(10496.0, -9728.0, UID.CITY)
-		Cities[194] = new City(12160.0, -10624.0, UID.CITY)
-		Cities[195] = new City(12544.0, -11904.0, UID.CITY)
+		Cities[190] = new City(8384.0, -12096.0, UID.CITY)
+		Cities[191] = new City(9728.0, -11392.0, UID.CITY)
+		Cities[192] = new City(10496.0, -9728.0, UID.CITY)
+		Cities[193] = new City(12160.0, -10624.0, UID.CITY)
+		Cities[194] = new City(12544.0, -11904.0, UID.CITY)
+
 
 		this.onEnter();
 		this.onLeave();
