@@ -31,7 +31,7 @@ export class ModeUI {
 		const title: framehandle = BlzCreateFrameByType('BACKDROP', 'title', backdrop, '', 0);
 		BlzFrameSetSize(title, 0.2, 0.15);
 		BlzFrameSetPoint(title, FRAMEPOINT_CENTER, backdrop, FRAMEPOINT_TOP, 0.0, -0.045);
-		BlzFrameSetTexture(title, 'war3mapimported\\ModeTitle.dds', 0, true);
+		BlzFrameSetTexture(title, 'war3mapimported\\logo.dds', 0, true);
 
 		//Player List
 		ModeUI.pList(backdrop);
