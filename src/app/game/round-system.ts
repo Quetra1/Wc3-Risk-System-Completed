@@ -206,9 +206,9 @@ export class Round {
 		});
 	}
 
-	public end() {}
+	public end() { }
 
-	public saveRound() {}
+	public saveRound() { }
 
 
 	public static getInstance() {
@@ -267,7 +267,7 @@ export class Round {
 		GamePlayer.fromPlayer.forEach((gPlayer) => {
 			//Create player tools
 			if (!gPlayer.tools) {
-				gPlayer.tools = CreateUnit(gPlayer.player, UID.PLAYER_TOOLS, 18750.0, -16200.0, 270);
+				gPlayer.tools = CreateUnit(gPlayer.player, UID.PLAYER_TOOLS, 14568, -15691.0, -67);
 				SetUnitPathing(gPlayer.tools, false);
 				UnitRemoveAbility(gPlayer.tools, AID.LOW_HEALTH_DEFENDER);
 				UnitRemoveAbility(gPlayer.tools, AID.LOW_VALUE_DEFENDER);
